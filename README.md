@@ -30,7 +30,13 @@ cd ppm_docs
 ## 2. Download datasets
 You can access and download the required datasets from [Mendeley Data](https://data.mendeley.com/datasets/kdcspz6xtn/1).
 
-The individual files should be placed as follows:
+We provide a shell script to create the necessary directories and automate the download. To run it, use the following command:
+
+```
+./download_data.sh
+```
+
+In case you need to download the files manually, ensure they are placed as follows:
 * log_data/process_log.csv
 * log_data/folds_and_splits.csv
 * processed_data/features/bert_german.zip
