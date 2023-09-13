@@ -33,7 +33,7 @@ You can access and download the required datasets from [Mendeley Data](https://d
 We provide a shell script to create the necessary directories and automate the download. To run it, use the following command:
 
 ```
-./download_data.sh
+bash download_data.sh
 ```
 
 In case you need to download the files manually, ensure they are placed as follows:
